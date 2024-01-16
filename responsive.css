@@ -1,0 +1,59 @@
+/* Responsive */
+@media screen and (max-width: 600px) {
+    /* header */
+    header nav a.logo h1 {
+        font-size: 20px;
+    }
+    header nav .headericon {
+        display: inline;
+    }
+    header nav ul.main-menu {
+        display:none;
+    }
+    /* main-banner start */
+    .main-banner h1 {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    .main-banner p {
+        font-size: 14px;
+        margin: 20px 0px;
+        padding: 0% 25%;
+    }
+    .main-banner .main-banner-input-area{
+        width: 100%;
+        padding: 40px 30px 40px 10px;
+    }
+    .main-banner .main-banner-input-area {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-banner .main-banner-input-area .main-banner-input-field {
+        width: 100%;
+    }
+
+    /* Popular tour start */
+    .popular-tour {
+        padding: 20px;
+    }
+    .popular-tour .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .popular-tour-left h1 {
+        font-size: 20px;
+    }
+    .popular-tour-left p {
+        font-size: 14px;
+    }
+    .popular-tour-left ul {
+        font-size: 14px;
+    }
+
+    /* Popular tour end */
+    /* hero-travels */
+    .hero-travels a.logo h1 {
+        font-size: 20px;
+    }
+}
