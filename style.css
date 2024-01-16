@@ -221,7 +221,69 @@ header nav ul.main-menu a li {
 .choose-us-section {
     text-align: left;
 }
+/* <!-- news letter start--> */
+.newsletter-area {
+    margin: 70px 0px;
+}
+.newsletter-section {
+    display: flex;
+    gap: 20px;
+}
+.left-newsletter {
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    border-radius: 15px;
+}
+.left-newsletter h3 {
+    margin: 20px 0px;
+    font-size: 24px;
+    color: var(--title-color);
+}
+.left-newsletter p {
+    margin-bottom: 30px;
+}
+.left-newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.left-newsletter form input {
+    background-color: #F3F3F3;
+    padding: 10px 20px;
+    border: none;
+}
+.left-newsletter form button {
+    background-color: var(--primary-color);
+    color: var(--whitebg-color);
+    border: none;
+    padding: 10px 0px;
+}
+.left-newsletter form button:hover{
+    background-color: var(--whitebg-color);
+    color: var(--primary-color);
+}
+.right-newsletter {
+    position: relative;
+    
+}
 
+.right-newsletter .newsletter-discount {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    color: var(--whitebg-color);
+    margin-bottom: 40px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transform: rotate(-20deg);
+}
+.right-newsletter .newsletter-discount a{
+    color: var(--whitebg-color);
+}
+/* <!-- news letter end--> */
 /* hero-travels start */
 .hero-travels {
     background-color: #F3F3F3;
