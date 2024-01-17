@@ -221,11 +221,61 @@ header nav ul.main-menu a li {
 .choose-us-section {
     text-align: left;
 }
+/* perfect place start */
+.perfect-place{
+    margin: 100px 0px;
+}
+.perfect-place-area {
+    display: flex;
+    gap: 20px;
+}
+.perfect-place-area .left-perfect-place h1{
+    font-size: var(--title-size);
+    color: var(--title-color);
+    margin-bottom: 20px;
+}
+.perfect-place-area .left-perfect-place p {
+    margin-bottom: 20px;
+}
+.perfect-place-area .left-perfect-place ul {
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+.perfect-place-area .left-perfect-place ul li {
+    list-style-type: square;
+    margin-bottom: 20px;
+}
+.perfect-place-area .left-perfect-place a {
+    background-color: var(--primary-color);
+    color: var(--whitebg-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.perfect-place-area .left-perfect-place a:hover {
+    background-color: var(--whitebg-color);
+    color: var(--primary-color);
+}
+.right-perfect-place {
+    position: relative;
+}
+.right-perfect-place img {
+    position: relative;
+}
+.perfect-place-area .right-perfect-place .perfect-place-things {
+    color: var(--whitebg-color);
+}
+.perfect-place-area .right-perfect-place .perfect-place-things h3 {
+    position: absolute;
+    top: 200px;
+    right: 130px;
+}
+/* perfect place end */
 /* <!-- news letter start--> */
 .newsletter-area {
     margin: 70px 0px;
 }
 .newsletter-section {
+    width: 100%;
     display: flex;
     gap: 20px;
 }
@@ -256,6 +306,7 @@ header nav ul.main-menu a li {
     background-color: var(--primary-color);
     color: var(--whitebg-color);
     border: none;
+    border-radius: 10px;
     padding: 10px 0px;
 }
 .left-newsletter form button:hover{
@@ -263,8 +314,7 @@ header nav ul.main-menu a li {
     color: var(--primary-color);
 }
 .right-newsletter {
-    position: relative;
-    
+    position: relative; 
 }
 
 .right-newsletter .newsletter-discount {
@@ -288,6 +338,8 @@ header nav ul.main-menu a li {
 .hero-travels {
     background-color: #F3F3F3;
     text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
 }
 .hero-travels a.logo{
     display: flex;
@@ -320,10 +372,10 @@ header nav ul.main-menu a li {
 /* hero-travels end */
 
 /* footer start */
-footer{
+footer {
     background-color: #F3F3F3;
     text-align: center;
-    color: var(--title-color);
+    color: var(--para-color);
     padding: 50px;
 }
 footer strong{
