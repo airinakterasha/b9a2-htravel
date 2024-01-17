@@ -72,32 +72,28 @@
     /* <!-- news letter end--> */
     /* hero-travels start */
     .hero-travels {
-        margin-top: 20px;
-        padding: 0px;
-        text-align: center;
+        margin: 0px;
     }
     .hero-travels a.logo {
-        display: flex;
-        justify-content: center;
+
     }
     .hero-travels a.logo img.main-logo{
         width: 24px;
-        padding: 0px;
-        margin-right: 10px;
     }
     .hero-travels a.logo h1 {
         font-size: 22px;
     }
     .hero-travels p {
         font-size: 14px;
-        margin: 0PX;
-        padding: 0px;
     }
     /* hero-travels end */
     /* footer start */
     footer {
+        width: 100%;
+        margin: 0px;
+        background-color: #F3F3F3;
         font-size: 14px;
-        padding: 50px 10px;
     }
     /* footer end */
 }
+
